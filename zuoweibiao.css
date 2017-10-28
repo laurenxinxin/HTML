@@ -1,0 +1,18 @@
+body {
+	text-align: center;
+}
+thead {
+	color: red;
+}
+tbody,tr,td {
+	border: 1px solid black;
+	font-size:40px;
+}
+caption {
+	color:blue;
+	font-weight: bold;
+	font-size:50px;
+}
+table {
+	margin:0px auto;
+}
