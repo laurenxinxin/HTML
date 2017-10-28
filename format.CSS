@@ -13,3 +13,11 @@ a:hover {
 blockquote, cite {
 	text-transform: uppercase;
 }
+h1 {
+	width:400px;
+	height:30px;
+	padding:10px;
+	border:1px solid #999999;
+	background:#eeeeee;
+	margin: 10px 20px 20px 10px;
+}
