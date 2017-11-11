@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>表单</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="forms.CSS" rel="stylesheet">
+</head>
+<body>
+	<div id="Name"><h2>Name</h2>
+		<form action="format.html" method="post">
+			<label for="firstName">First Name</label>:
+			<input id="firstName" name="firstName" type="text"/>
+	    	<p>
+			<label for="lastName">Last Name</label>:
+			<input id="lastName" name="lastName" type="text"/>
+			<p>
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+	<hr>
+	<div id="contactDetails"><h2>Contact details</h2>
+		<form action="format.html" method="post">
+			<div class="formRow">
+				<label for="contactName">Contact name</label>:
+				<input id="contactName" name="contactName" type="text"/>
+			</div>
+			<div class="formRow">
+				<label for="phoneNumber">Phone number</label>:
+				<input id="phoneNumber" name="phoneNumber" type="tel"/>
+			</div>
+			<div class="formRow">
+				<label for="emailAddress">Email address</label>:
+				<input id="emailAddress" name="emailAddress" type="email"/>
+			</div>
+			<div class="formRow">
+				<label for="companyName">Company name</label>:
+				<select name="companyName" id="companyName">
+					<option value="-1">Please select</option>
+					<option value="1">123</option>
+					<option value="2">456</option>
+					<option value="3">789</option>
+				</select>
+			</div>
+			<div class="formRow">
+				<label for="notes">Notes</label>:
+				<textarea cols="51" rows="20" name="notes"></textarea> 
+			</div>
+			<input type="submit" value="Submit2">
+		</form>
+	</div>
+	<hr>
+	<div id="dates"><h2>Dates</h2>
+		<form method="post">
+			<div class="formRow">
+				<label for="lastContacted">Last contacted</label>:
+				<input id="lastContacted" name="lastContacted" type="date"/>
+			</div>
+			<div class="formRow">
+				<label for="lastContacted">Last contacted</label>:
+				<input id="lastContacted" name="lastContacted" type="datetime"/>
+			</div>
+		</form>
+	</div>
+	<hr>
+</body>
+</html>
